@@ -1,0 +1,65 @@
+    1  cd
+    2  cd/root
+    3  cd/etc/
+    4  cd
+    5  ls
+    6  pwd
+    7  mkdir Module01Test
+    8  cd Module01Test
+    9  touch index.html
+   10  echo "It's great to learn command line utilities" >> index.html
+   11  cat "It's great to learn command line utilities" >> index.html
+   12  cat index.html
+   13  nano index.html
+   14  cat index.html
+   15  rm -rf Module01Test
+   16  cd ..
+   17  rm -rf Module01Test
+   18  history
+   19  mkdir ShellScriptTest
+   20  cd ShellScriptTest
+   21  touch application.sh
+   22  chmod a+x application.sh 
+   23  nano application.sh 
+   24  /bin/bash
+   25  ./application.sh
+   26  nano application.sh
+   27  ./application.sh
+   28  nano application.sh
+   29  ./application.sh
+   30  nano application.sh
+   31  ./application.sh
+   32  nano application.sh
+   33  ./application.sh
+   34  nano application.sh
+   35  ./application.sh
+   36  nano application.sh
+   37  ./application.sh
+   38  nano application.sh
+   39  ./application.sh
+   40  nano application.sh
+   41  git add .
+   42  git commit -m "this change is made by Mazharul"
+   43  git push origin quick-brach
+   44  cd ..
+   45  mkdir Git_Practice2
+   46  cd Git_Practice2
+   47  git clone https://github.com/WaliurRashid/qaae-lab.git
+   48  sudo yum install httpd
+   49  yum install httpd
+   50  rsync -avz --exclude '.git' / https://github.com/WaliurRashid/qaae-lab.git  /var/www/html/
+   51  ls
+   52  rm -rf qaae-lab
+   53  ls
+   54  ssh -i "MyKeyPair.pem" ec2-user@ec2-3-15-221-85.us-east-2.compute.amazonaws.com
+   55  cd ..
+   56  mkdir Git_Practice3
+   57  cd  Git_Practice3
+   58  cd ..
+   59  rm Git_Practice3
+   60  rm -rf  Git_Practice3
+   61  cd Git_Practice2
+   62  ssh -i "MyKeyPair.pem" ec2-user@ec2-3-144-90-124.us-east-2.compute.amazonaws.com
+   63  history
+   64  history > SampleWebAppPractice
+
